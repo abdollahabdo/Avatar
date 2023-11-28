@@ -1,0 +1,83 @@
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    padding: 0;
+}
+a {
+color: white;
+text-decoration: none;
+}
+body{
+    background-image: linear-gradient(to right,rgb(6, 1, 30),black);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width:1200px;
+    height:520px;
+    background-image:
+    linear-gradient(to right,rgb(6, 1, 30),rgba(0, 0, 0, 0.089)),
+    url(./image/download.png);
+    background-position: center;
+}
+.container:hover{
+    background-image:
+    linear-gradient(to right,rgb(6, 1, 30),transparent),
+    url(./image/download.png);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+ul {
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover {
+    border-bottom-color: white;
+}
+.content{
+    border: 10px;
+    width: 21%;
+    margin-top: 100px;
+    padding: 20px;
+    color: white;
+}
+button {
+    color: black;
+    background-color: white;
+    font-size: xx-large;
+    padding: 3px;
+    border-radius: 10%;
+    border: 2px solid transparent;
+}
+button:hover{
+border-color: white;
+background-color: transparent;
+color: white;
+cursor: pointer;
+}
+.content h2 {
+    font-size: 100px;
+text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 2px;
+    width: 301px;
+    padding: 17px 0px;
+}
+
+
